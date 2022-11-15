@@ -12,7 +12,7 @@
     <main class="d-flex flex-nowrap">
       
       <div
-        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark"
+        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark menu"
         style="width: 280px"
       >
         <a
@@ -25,7 +25,7 @@
         <hr />
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
+            <a href="#" class="nav-link text-white " aria-current="page">
               <i class="bi bi-house-door me-2" width="16" height="16">
             </i>
               Home
@@ -39,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="#" class="nav-link text-white active">
               <i class="bi bi-calendar4-week me-2" width="16" height="16">
               </i>
               Orders
@@ -93,73 +93,82 @@
 
         <!-- FORM -->
         <form class="row g-3">
-          <div class="col-md-4">
-            <label for="inputSeller" class="form-label">SELLER</label>
+          <div class="col-md-6">
+            <label for="inputSeller" class="form-label">Seller</label>
             <select id="inputSeller" class="form-select">
               <option selected>Choose...</option>
-              <option>Juan</option>
+              <option>Ivonne Molina</option>
+              <option>Diana Gonzales</option>
+              <option>Jacqueline Casique</option>
+              <option>Tania Casillas</option>
             </select>
           </div>
 
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
+          <div class="col-md-3">
+            <label for="inputPhone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="inputPhone">
           </div>
 
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+          <div class="col-md-3">
+            <label for="inputZip" class="form-label">Date</label>
+            <input type="date" class="form-control" id="inputZip">
           </div>
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
+          <div class="col-md-12">
+            <label for="inputBuyer" class="form-label">Buyer name</label>
+            <input type="text" class="form-control" id="inputBuyer">
           </div>
 
-          <div class="col-12">
+          <div class="col-3">
             <label for="inputAddress" class="form-label">Address</label>
             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
           </div>
-
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          <div class="col-3">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="St">
           </div>
+          <div class="col-3">
+            <label for="inputState" class="form-label">State</label>
+            <input type="text" class="form-control" id="inputState" placeholder="Main St">
+          </div>
+          <div class="col-3">
+            <label for="inputCode" class="form-label">Postal Code</label>
+            <input type="number" class="form-control" id="inputCode" placeholder="19210">
+          </div>
+
+          <div class="col-3">
+            <label for="inputPhoneBuyer" class="form-label">Phone Buyer</label>
+            <input type="tel" class="form-control" id="inputPhoneBuyer">
+          </div>
+
+          <div class="col-3">
+            <label for="inputPhoneBuyer" class="form-label">Alternative</label>
+            <input type="tel" class="form-control" id="inputPhoneBuyer">
+          </div>
+
+          <div class="col-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="cliente@hotmail.com">
+          </div>
+          <hr width="100%">
+
 
           <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
+            <label for="inputSeller" class="form-label">Stiles</label>
+            <select id="inputSeller" class="form-select">
               <option selected>Choose...</option>
-              <option>...</option>
+              <option>Round</option>
+              <option>A - Frame</option>
+              <option>Garage</option>
+              <option>RV</option>
+              <option>Commercial</option>
+              <option>Farm</option>
             </select>
-          </div>
-
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
           </div>
 
           <div class="col-12">
             <button type="submit" class="btn btn-primary">Sign in</button>
           </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         </form>
 
