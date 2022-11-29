@@ -1,0 +1,6 @@
+/* @import './Bootstrap/bootstrap.min.css';
+@import './modules/login.css';
+@import './modules/home.css'; */
+@import '../css/Bootstrap/bootstrap.min.css';
+@import '../css/modules/login.css';
+@import '../css/modules/home.css';
